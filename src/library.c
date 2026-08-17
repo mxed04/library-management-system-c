@@ -9,6 +9,8 @@ LibrarySystem* create_system(void) {
     if (!sys) return NULL;
     sys->library_count = 0;
     sys->libraries = NULL;
+    sys->book_count = 0;
+    sys->books = NULL;
     return sys;
 }
 
@@ -87,6 +89,7 @@ int add_book_to_library(Library *lib, Book book) {
 void free_system(LibrarySystem *sys) {
     if (!sys) return;
 
+    /* Free all shelves and their books in each library */
     for (int i = 0; i < sys->library_count; i++) {
         Library *lib = &sys->libraries[i];
         for (int j = 0; j < lib->shelf_count; j++) {
@@ -95,5 +98,8 @@ void free_system(LibrarySystem *sys) {
         free(lib->shelves);
     }
     free(sys->libraries);
+
+    /* Free master book catalog */
+    free(sys->books);
     free(sys);
 }
