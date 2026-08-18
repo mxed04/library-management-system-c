@@ -9,7 +9,7 @@ Smart shelf placement · Fuzzy search · Sales analytics · Binary persistence �
 [![CI Build](https://github.com/mxed04/library-management-system-c/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/mxed04/library-management-system-c/actions/workflows/c-cpp.yml)
 [![Language](https://img.shields.io/badge/Language-C99-00599C?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C99)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Academic Term](https://img.shields.io/badge/Academic%20Term-1404-8A2BE2)](#-overview--problem-statement)
+[![Academic Term](https://img.shields.io/badge/Academic%20Term-1402-8A2BE2)](#-overview--problem-statement)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-informational)](#️-build-run--prerequisites)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contributing)
 
@@ -36,7 +36,7 @@ Smart shelf placement · Fuzzy search · Sales analytics · Binary persistence �
 
 Managing a **single** library is easy. Managing a **chain** of branches — each with its own shelves, capacities, and genres — while also tracking a master catalog, point-of-sale transactions, and change-making, is a genuinely different engineering problem.
 
-This project is the final-term submission for **"Fundamentals of Computer and Programming"** (Term 1404), implemented entirely in **ANSI C (C99)** with **no external libraries** — every data structure, string routine, and file format is built by hand using only `stdio.h`, `stdlib.h`, `string.h`, and `ctype.h`.
+This project is the final-term submission for **"Fundamentals of Computer and Programming"** (Term 1402), implemented entirely in **ANSI C (C99)** with **no external libraries** — every data structure, string routine, and file format is built by hand using only `stdio.h`, `stdlib.h`, `string.h`, and `ctype.h`.
 
 The system models a real-world chain bookstore/library:
 
